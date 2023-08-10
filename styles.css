@@ -25,18 +25,38 @@ section {
 h3 {
     margin: 0px;
 }
+
+img {
+    width: 1000px;
+    height: 500;
+    position: static;
+}
 /* Ids */
 
 #home {
-    background-color: rgb(236, 177, 66);
+    background-color: #ffd580;
 }
 
 #hotel{
-    background-color: lightgreen;
+    background-color: #C1E1C1;
 }
 
 #sim{
     background-color: lightblue;
 }
 
+#accen{
+    background-color: thistle;
+}
+
+#penn{
+    background-image: linear-gradient(to top, #abd5ff, #faf9f6, rgb(255, 137, 137));
+}
 /* Classes */
+ 
+.center {
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%)
+}
