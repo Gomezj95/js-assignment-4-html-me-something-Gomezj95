@@ -1,1 +1,42 @@
 /* Write your CSS here! */
+
+/* Elements */
+
+body {
+color: #333;
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+}
+
+article{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 0px;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+h3 {
+    margin: 0px;
+}
+/* Ids */
+
+#home {
+    background-color: rgb(236, 177, 66);
+}
+
+#hotel{
+    background-color: lightgreen;
+}
+
+#sim{
+    background-color: lightblue;
+}
+
+/* Classes */
