@@ -60,11 +60,17 @@ footer{
 
 p{
     font-family: monospace;
-    font-size: 13px;
-    text-align: left;
-    padding: 20px 30px
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 30px;
+    font-weight: bold;
 }
 /* Ids */
+
+#me{
+    background-color: #22577A;
+    color: black;
+}
 
 #home {
     background-color: #ffd580;
@@ -92,6 +98,13 @@ p{
     background-color: #f8f7f2;
     padding: 20px;
 }
+
+#center{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
 /* Classes */
  
 .center {
@@ -105,4 +118,10 @@ p{
 
 .funParagraph{
     color: green;
+}
+
+.circular--square {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
